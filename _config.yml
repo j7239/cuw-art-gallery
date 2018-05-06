@@ -1,15 +1,13 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: CUW Art Gallery
+author: Jordan Kelly
+email: jordan.kelly@arbor.edu
 description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The CUW Art Gallery was founded with the hope of educating, challenging, and inspiring the students, faculty, staff, and community of CUW as well as the public through exposure to the vast world of art.
 
 # social links
-twitter_username: jekyllrb
-github_username:  jekyll
-rss: rss
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -42,6 +40,5 @@ minima:
 # Build settings
 theme: minima
 
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+# plugins:
+
