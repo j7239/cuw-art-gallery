@@ -1,3 +1,4 @@
+---
 title: CUW Art Gallery
 timezone: UTC
 collections:
@@ -10,19 +11,23 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+    author: Ethan
+    header:
+    - home
+    - about
+    - student-work
 author: Jordan Kelly
 email: jordan.kelly@arbor.edu
-description: The CUW Art Gallery was founded with the hope of educating, challenging, and inspiring the students, faculty, staff, and community of CUW as well as the public through exposure to the vast world of art.
+description: The CUW Art Gallery was founded with the hope of educating, challenging,
+  and inspiring the students, faculty, staff, and community of CUW as well as the
+  public through exposure to the vast world of art.
 show_excerpts: false
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      author: "Ethan"
-      header: ["home", "about", "student-work"]
