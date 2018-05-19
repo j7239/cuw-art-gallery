@@ -28,3 +28,4 @@ plugins:
 - jekyll-seo-tag
 header_pages:
 - about.html
+- student-work.html
