@@ -4,3 +4,12 @@ date: 2018-05-19 18:18:00 Z
 position: 2
 ---
 
+<div class="container">
+            <div class="row space-100 pt-5 pb-5">
+                <div class="col-xs-12 col-sm-12 d-flex wow fadeInDown">
+                    <div class="contents pr-4 d-flex justify-content-center flex-column">
+                        <h1 class="head-title">Student Work</h1>
+                        <h4>Students develope their skills in a variety of media during their time here at CUW. Check back regularly to see what new work has been created.</h4> </div>
+                </div>
+            </div>
+        </div>
