@@ -1,5 +1,5 @@
 {%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}    
+{%- assign page_paths = site.main-nav_pages | default: default_paths -%}    
 <!-- Header Section Start -->
     <header id="hero-area" data-stellar-background-ratio="0.5">
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mainmenu-area">

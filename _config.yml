@@ -26,7 +26,7 @@ show_excerpts: false
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
-header_pages:
+main-nav_pages:
 - "about.markdown"
 - "student-work.markdown"
 - "index.markdown"
