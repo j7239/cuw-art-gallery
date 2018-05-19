@@ -2,7 +2,7 @@
 title: CUW Art Gallery
 timezone: UTC
 collections:
-  header:
+  headers:
     title: Headers
     output: false
   posts:
