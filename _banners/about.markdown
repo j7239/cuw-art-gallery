@@ -24,5 +24,4 @@ position: 1
                 <p>Saturday | CLOSED</p>
           </div>
         </div> 
-      </div> 
-    </header>
+      </div>
