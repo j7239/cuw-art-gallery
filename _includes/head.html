@@ -8,8 +8,8 @@
         {%- if page.title == 'home' | downcase -%} 
             CUW Art Gallery
         {% else %}
-            CUW Art Gallery | {%- page.title -%}
-        {%- endif -%}{%- page.title -%}
+            CUW Art Gallery | {{ page.title }}
+        {%- endif -%}{{ page.title }}
     </title> 
     {%- include stylesheets.html -%}
     <link rel="stylesheet" href="{{ " /assets/main.css " | relative_url }}"> 
