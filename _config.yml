@@ -29,3 +29,4 @@ plugins:
 header_pages:
 - "about.markdown"
 - "student-work.markdown"
+- "index.markdown"
