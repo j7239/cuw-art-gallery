@@ -17,3 +17,12 @@ show_excerpts: false
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Ethan"
+      header: ["home", "about", "student-work"]
