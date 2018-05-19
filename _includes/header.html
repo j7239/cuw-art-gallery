@@ -10,9 +10,9 @@
                     <ul class="navbar-nav">
                         {%- for path in page_paths -%}
                         {%- assign this_page = site.pages | where: "path", path | first -%}
-                        <!-- {%- if this_page.title -%} -->
+                        {%- if this_page.title -%}
                         <li class="nav-item active wow fadeInDownBig"> <a class="nav-link page-scroll" href="{{ this_page.url | relative_url }}"></a>{{ this_page.title | escape}}</li>
-                        <!-- {%- endif -%} -->
+                        {%- endif -%}
                         {%- endfor -%}
                     </ul>
                 </div>
