@@ -31,8 +31,6 @@ show_excerpts: false
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
-<<<<<<< Updated upstream
-=======
 defaults:
   -
     scope:
@@ -42,4 +40,3 @@ defaults:
       layout: "default"
       author: "Ethan"
       headers: ["home", "about", "student-work"]
->>>>>>> Stashed changes
