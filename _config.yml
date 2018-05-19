@@ -2,8 +2,8 @@
 title: CUW Art Gallery
 timezone: UTC
 collections:
-  headers:
-    title: Headers
+  banners:
+    title: Banners
     output: false
   posts:
     title: Posts
@@ -16,10 +16,7 @@ defaults:
     path: ''
     type: pages
   values:
-    header:
-    - home
-    - about
-    - student-work
+    banner:
 author: Jordan Kelly
 email: jordan.kelly@arbor.edu
 description: The CUW Art Gallery was founded with the hope of educating, challenging,
