@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: pages
   values:
-    headers:
+    header:
     - home
     - about
     - student-work
