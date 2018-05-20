@@ -31,7 +31,7 @@ layout: default
                 <div class="section-header">
                     <h2 class="section-title wow fadeIn">Upcoming Exhibits</h2>
                     <hr class="lines wow zoomIn">
-                    {%- if page.upcoming_exhibits -%}
+                    {%- if page.upcoming_exhibits != "" -%}
                     <p class="section-subtitle wow fadeIn">{{page.upcoming_exhibits}}</p>
                     {%- endif -%}
                 </div>
@@ -80,7 +80,7 @@ layout: default
                 <div class="section-header">
                     <h2 class="section-title wow fadeIn">Archive</h2>
                     <hr class="lines wow zoomIn">
-                    {%- if page.archive -%}
+                    {%- if page.archive != "" -%}
                     <p class="section-subtitle wow fadeIn">{{page.archive}}</p>
                     {%- endif -%}
                 </div>
