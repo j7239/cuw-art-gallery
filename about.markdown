@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-Banner: About
+banner: About
 layout: page
 ---
 
