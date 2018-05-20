@@ -1,6 +1,8 @@
 ---
 title: Home
-banner: Home
+Banner: Home
+Upcoming Exhibits: 
+Archive: 
 layout: home
 ---
 
