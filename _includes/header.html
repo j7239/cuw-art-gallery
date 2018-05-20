@@ -18,6 +18,7 @@
                 </div>
             </div>
         </nav>
-        {{ page.banner.content }}
+        {%- assign current_banner = site.banners | title: {{page.banner}} -%}
+        {{ current_banner.content }}
     </header>
     <!-- Header Section End -->
