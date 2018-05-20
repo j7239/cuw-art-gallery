@@ -31,8 +31,8 @@ layout: default
                 <div class="section-header">
                     <h2 class="section-title wow fadeIn">Upcoming Exhibits</h2>
                     <hr class="lines wow zoomIn">
-                    {%- if page.upcoming_exhibits != "" -%}
-                    <p class="section-subtitle wow fadeIn">{{page.upcoming_exhibits}}</p>
+                    {%- if page.upcoming_text  != "" -%}
+                    <p class="section-subtitle wow fadeIn">{{page.upcoming_text | markdownify}}</p>
                     {%- endif -%}
                 </div>
                 <div class="row d-flex">
@@ -80,8 +80,8 @@ layout: default
                 <div class="section-header">
                     <h2 class="section-title wow fadeIn">Archive</h2>
                     <hr class="lines wow zoomIn">
-                    {%- if page.archive != "" -%}
-                    <p class="section-subtitle wow fadeIn">{{page.archive}}</p>
+                    {%- if page.archive_text != "" -%}
+                    <p class="section-subtitle wow fadeIn">{{page.archive_text | markdownify}}</p>
                     {%- endif -%}
                 </div>
                 <div class="row">
