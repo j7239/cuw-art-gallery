@@ -18,10 +18,12 @@
                 </div>
             </div>
         </nav>
+        <!-- Page Banner -->
         {%- for banner in collection.banners -%}
             {%- if banner.title = {{page.banner}} -%}
                 {{banner.content}}
             {%- endif -%}
         {% endfor %}
+        <!-- Page End -->
     </header>
     <!-- Header Section End -->
