@@ -1,8 +1,8 @@
 ---
 title: Home
 banner: Home
-upcoming text: Test
-archive text: Test
+upcoming: Test
+archive: Test
 layout: home
 ---
 
