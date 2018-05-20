@@ -18,7 +18,10 @@
                 </div>
             </div>
         </nav>
-        {%- assign current_banner = site.banners | title: {{page.banner}} -%}
-        {{ current_banner.content }}
+        {%- for banner in collection.banners -%}
+            {%- if banner.title = {{page.banner}} -%}
+                {{banner.content}}
+            {%- endif -%}
+        {% endfor %}
     </header>
     <!-- Header Section End -->
