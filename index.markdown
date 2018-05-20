@@ -1,8 +1,8 @@
 ---
 title: Home
 Banner: Home
-Upcoming Exhibits: 
-Archive: 
+Upcoming Exhibits: Test
+Archive: Test
 layout: home
 ---
 
