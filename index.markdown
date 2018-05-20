@@ -4,7 +4,7 @@ banner: Home
 layout: home
 ---
 
- <!-- Services Section Start -->
+<!-- Services Section Start -->
         <section id="featured" class="section">
             <div class="container">
                 <div class="section-header text-left">
@@ -47,7 +47,6 @@ layout: home
                         </div>
                         <!-- Blog Item Wrapper Ends-->
                     </div>
-                    
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item wow fadeInUp" data-wow-delay="200ms">
                         <!-- Blog Item Starts -->
                         <div class="blog-item-wrapper h-100 d-flex flex-column">
@@ -59,7 +58,6 @@ layout: home
                         </div>
                         <!-- Blog Item Wrapper Ends-->
                     </div>
-                    
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-item wow fadeInUp" data-wow-delay="400ms">
                         <!-- Blog Item Starts -->
                         <div class="blog-item-wrapper h-100 d-flex flex-column">
@@ -71,10 +69,8 @@ layout: home
                         </div>
                         <!-- Blog Item Wrapper Ends-->
                     </div>
-                    
-
-                    </div>
                 </div>
+            </div>
         </section>
         <!-- blog Section End -->
         <!-- Portfolio Section -->
@@ -113,79 +109,68 @@ layout: home
                 <!-- Portfolio Recent Projects -->
                 <div class="show-less text-center mt-2"><a href="#" title="Show less items" class="btn btn-common">Show Less <span class="lnr lnr-chevron-up ml-1"></span></a></div>
                 <div class="more-wrap">
-                <div id="portfolio" class="row">
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 2">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 2">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 2</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 1, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                    <div id="portfolio" class="row">
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 2">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 2">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 2</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 1, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 2">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 2">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 2</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 2, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 1">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 1">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 1</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 3, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 1">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 1">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 1</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 4, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 1">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 1">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 1</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 5, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
+                            <div class="portfolio-item" data-info="Title of Exhibit 1">
+                                <div class="shot-item">
+                                    <a href="#" title="Title of Exhibit 1">
+                                        <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
+                                        <h3>Title of Exhibit 1</h3> </a>
+                                    <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 6, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 2">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 2">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 2</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 2, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 1">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 1">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 1</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 3, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 1">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 1">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 1</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 4, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 1">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 1">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 1</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 5, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-lg-4 col-xl-4 mix development design">
-                        <div class="portfolio-item" data-info="Title of Exhibit 1">
-                            <div class="shot-item">
-                                <a href="#" title="Title of Exhibit 1">
-                                <div class="overlay lightbox"> <img src="img/portfolio/img1.jpg" alt="" /> <i class="lnr lnr-plus-circle item-icon"></i> </div>
-                                <h3>Title of Exhibit 1</h3>
-                                </a>
-                                <div class="meta-tags"> <span class="date"><i class="lnr lnr-calendar-full"></i>on Mar 6, 2018</span> <span class="type"><i class="lnr lnr-tag"></i><a class="filter tag" data-filter=".development" title="Filter Development" href="#">Development</a> | <a class="filter tag" data-filter=".design" title="Filter Design" href="#">Design</a></span> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 </div>
                 <div class="show-more active text-center mt-2"><a href="#" title="Show more items" class="btn btn-common">Show More <span class="lnr lnr-chevron-down ml-1"></span></a></div>
             </div>
