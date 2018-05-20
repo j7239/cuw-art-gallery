@@ -27,6 +27,6 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 main-nav_pages:
-- "index.markdown"
-- "about.markdown"
-- "student-work.markdown"
+- index.markdown
+- about.markdown
+- student-work.markdown
