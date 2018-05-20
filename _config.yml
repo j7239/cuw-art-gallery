@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: pages
   values:
-    banner: 
+  
 author: Jordan Kelly
 email: jordan.kelly@arbor.edu
 description: The CUW Art Gallery was founded with the hope of educating, challenging,
