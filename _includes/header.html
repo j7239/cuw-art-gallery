@@ -20,7 +20,7 @@
         </nav>
         <!-- Page Banner -->
         {{page.banner}}
-        {%- for item site.banners -%}
+        {%- for item in site.banners -%}
             {%- if item.title = {{page.banner}} -%}
                 {{item.content}}
             {%- endif -%}
