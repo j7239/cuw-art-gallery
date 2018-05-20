@@ -20,10 +20,9 @@
         </nav>
         <!-- Page Banner -->
         {%- for banner in site.banners -%}
-            {%- if banner.title = page.banner -%}
+            {%- if banner.title == page.banner -%}
                 {{banner.content}}
             {%- endif -%}
-            {{page.banner}}:{{banner.title}}<br>
         {%- endfor -%}
         <!-- Page End -->
     </header>
