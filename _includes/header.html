@@ -19,8 +19,7 @@
             </div>
         </nav>
         <!-- Page Banner -->
-        {{page.banner}}
-        {%- for banner in site.collections.banners -%}
+        {%- for banner in site.banners -%}
             {%- if banner.title = {{page.banner}} -%}
                 {{banner.content}}
             {%- endif -%}
