@@ -5,7 +5,6 @@ Upcoming Exhibits:
 Archive: 
 layout: home
 ---
-<!-- {{content}} -->
 <!-- Services Section Start -->
         <section id="featured" class="section">
             <div class="container">
