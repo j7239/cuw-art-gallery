@@ -5,9 +5,16 @@
                 <div class="col-md-12">
                     <div class="social-icons">
                         <ul>
-                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            {%- if site.facebook != '' -%} 
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            {%- endif -%}
+                            {%- if site.twitter != '' -%} 
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            {%- endif -%}
+                            {%- if site.linkedin != '' -%} 
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            {%- endif -%}
+                            
                         </ul>
                     </div>
                     <div class="site-info">
