@@ -426,7 +426,7 @@ button:focus {
    ========================================================================== */
 
 #hero-area {
-    background: url(..uploads/hero-area.jpg) fixed no-repeat;
+    background: url(../uploads/hero-area.jpg) fixed no-repeat;
     background-size: cover;
     color: #fff;
     overflow: hidden;
@@ -467,7 +467,7 @@ button:focus {
         }
         .overlay {
             @include fill-area;
-            background: url(..uploads/gallery.jpg);
+            background: url(../uploads/gallery.jpg);
             background-position: center;
             background-size: cover;
             position: absolute;
@@ -1373,7 +1373,7 @@ button:focus {
  ========================================================================== */
 
 .counters {
-    background: url(..uploads/bg1.jpg) fixed;
+    background: url(../uploads/bg1.jpg) fixed;
     position: relative;
     .facts-item {
         text-align: center;
