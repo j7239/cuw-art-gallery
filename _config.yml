@@ -8,6 +8,9 @@ collections:
   banners:
     title: Banners
     output: false
+  exhibits:
+    title: Exhibits
+    output: true
   uploads:
     title: Uploads
     output: true
