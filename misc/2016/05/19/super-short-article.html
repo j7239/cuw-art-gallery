@@ -23,7 +23,8 @@
                 <a class="navbar-brand wow fadeInDownBig" title="Concordia University Wisonsin" href="https://www.cuw.edu/"><img alt="Concordia University Wisconsin" src="uploads/logo-black.svg" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <i class="lnr lnr-menu"></i> </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <ul class="navbar-nav"><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/">Home</a></li><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/about/">About</a></li><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/student-work/">Student Work</a></li></ul>
+                    <ul class="navbar-nav">
+                        <!-- Loops through selected main-nav pages and checks if current page --><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/">Home</a></li><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/about/">About</a></li><li class="nav-item wow fadeInDownBig "> <a class="nav-link page-scroll" href="/student-work/">Student Work</a></li></ul>
                 </div>
             </div>
         </nav>
@@ -46,30 +47,37 @@
   </div><a class="u-url" href="/misc/2016/05/19/super-short-article.html" hidden></a>
 </article>
 
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">CUW Art Gallery</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Jordan Kelly</li><li><a class="u-email" href="mailto:jordan.kelly@arbor.edu">jordan.kelly@arbor.edu</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>The CUW Art Gallery was founded with the hope of educating, challenging, and inspiring the students, faculty, staff, and community of CUW as well as the public through exposure to the vast world of art.</p>
-      </div>
+    </main><!-- Footer Section Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="site-info">
+                        <p>&copy;
+                            <script>
+                                document.write((new Date()).getFullYear())
+                            </script> Concordia University Wisconsin Art Gallery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer Section End -->
+ <!-- Go To Top Link -->
+    <a href="#" class="back-to-top"> <i class="lnr lnr-arrow-up"></i> </a>
+    <div id="loader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
     </div>
-
-  </div>
-
-</footer>
 </body>
 
 </html>
