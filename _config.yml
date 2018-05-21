@@ -1,6 +1,6 @@
 ---
 title: CUW Art Gallery
-timezone: UTC
+timezone: America/Chicago
 collections:
   banners:
     title: Banners
@@ -16,7 +16,6 @@ email: jordan.kelly@arbor.edu
 description: The CUW Art Gallery was founded with the hope of educating, challenging,
   and inspiring the students, faculty, staff, and community of CUW as well as the
   public through exposure to the vast world of art.
-show_excerpts: false
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
@@ -24,3 +23,7 @@ main-nav_pages:
 - index.markdown
 - about.markdown
 - student-work.markdown
+social:
+  facebook: 
+  twitter: 
+  linkedin: 
