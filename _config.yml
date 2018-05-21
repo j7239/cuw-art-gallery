@@ -11,6 +11,9 @@ collections:
   exhibits:
     title: Exhibits
     output: true
+  tags:
+    title: Tags
+    output: true
   uploads:
     title: Uploads
     output: true
