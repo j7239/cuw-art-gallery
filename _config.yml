@@ -8,6 +8,9 @@ collections:
   exhibits:
     title: Exhibits
     output: true
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
