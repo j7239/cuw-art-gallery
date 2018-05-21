@@ -1,6 +1,6 @@
 ---
 title: Some articles are just so short that we have to make the footer stick
-date: 2016-05-19 00:00:00 Z
+date: 2016-05-18 19:00:00 -05:00
 categories:
 - misc
 layout: post

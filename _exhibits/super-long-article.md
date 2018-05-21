@@ -1,7 +1,7 @@
 ---
 title: Some articles are just so long they deserve a really long title to see if things
   will break well
-date: 2016-05-20 00:00:00 Z
+date: 2016-05-19 19:00:00 -05:00
 categories:
 - misc
 layout: post

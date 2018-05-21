@@ -5,6 +5,9 @@ collections:
   banners:
     title: Banners
     output: false
+  exhibits:
+    title: Exhibits
+    output: true
   posts:
     title: Posts
     output: true
