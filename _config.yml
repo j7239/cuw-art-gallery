@@ -2,14 +2,14 @@
 title: CUW Art Gallery
 timezone: America/Chicago
 collections:
-  posts:
-    title: Artwork Post
-    output: true
   banners:
     title: Banners
     output: false
   exhibits:
     title: Exhibits
+    output: true
+  posts:
+    title: Post
     output: true
   uploads:
     title: Uploads
