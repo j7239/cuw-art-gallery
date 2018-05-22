@@ -9,7 +9,7 @@ collections:
     title: Exhibits
     output: true
   posts:
-    title: Gallery
+    title: Student Gallery
     output: true
   uploads:
     title: Uploads
