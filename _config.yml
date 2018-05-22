@@ -19,6 +19,7 @@ defaults:
     path: ''
     type: exhibits
   values:
+    banner: Exhibit
     layout: exhibit
 author: Jordan Kelly
 email: jordan.kelly@arbor.edu
