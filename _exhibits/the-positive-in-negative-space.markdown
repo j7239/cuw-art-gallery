@@ -9,6 +9,7 @@ tags:
 Sub Header: 2018 Senior Exhibition
 Featured Image: "/uploads/senior-logo.png"
 Opening Date: 2018-05-03 19:00:00 -05:00
+layout: exhibit
 ---
 
 The 2018 graduating class of CUW Art Majors are putting their work on display and invite you to the grand opening of their Senior Exhibition. Their works include graphic design, illustration, animation, photography, and architecture. There will opportunities to meet with each student and snacks to go along with the celebration of the progress these students have made.
