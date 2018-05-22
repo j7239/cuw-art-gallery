@@ -13,6 +13,7 @@ position: 4
                                 <li><span class="lnr lnr-calendar-full">{{page.opening_date}}</span></li>
                                 <li><span class="lnr lnr-tag">
                                 {%- for tag in page.tags -%}
+                                    test
                                     {{tag}}
                                     {% if forloop.last == true %}
                                     <span> </span>
