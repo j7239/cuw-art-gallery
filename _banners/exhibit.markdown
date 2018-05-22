@@ -10,15 +10,17 @@ position: 4
                         <h1 class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">{{page.title}}</h1>
                         <div class="post-meta">
                             <ul>
-                                <li><span class="lnr lnr-calendar-full"></span>{{page[Opening Date]}}</li>
-                                <li><span class="lnr lnr-tag"></span>{%- for tag in page.tags -%}
+                                <li><span class="lnr lnr-calendar-full">{{page.opening_date}}</span></li>
+                                <li><span class="lnr lnr-tag">
+                                {%- for tag in page.tags -%}
                                     {{tag}}
                                     {% if forloop.last == true %}
                                     <span> </span>
                                     {% else %}
                                     <span> | </span>
                                     {% endif %}
-                                {%- endfor -%}</li>
+                                {%- endfor -%}
+                                </span></li>
                             </ul>
                         </div>
                     </div>
