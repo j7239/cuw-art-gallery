@@ -8,7 +8,7 @@ collections:
   exhibits:
     title: Exhibits
     output: true
-    layout: "exhibit"
+    layout: exhibit
   posts:
     title: Student Gallery
     output: true
