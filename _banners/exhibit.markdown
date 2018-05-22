@@ -1,0 +1,27 @@
+---
+title: Exhibit
+position: 4
+---
+
+<div class="container mt-5 mb-5">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="contents text-center">
+                        <h1 class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">{{page.title}}</h1>
+                        <div class="post-meta">
+                            <ul>
+                                <li><span class="lnr lnr-calendar-full"></span>{{page[opening date]}}</li>
+                                <li><span class="lnr lnr-tag"></span>{%- for tag in page.tags -%}
+                                    {{page.tag}}
+                                    {% if forloop.last == false %}
+                                    <span> </span>
+                                    {% else %}
+                                    <span> | </span>
+                                    {% endif %}
+                                {%- endfor -%}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
