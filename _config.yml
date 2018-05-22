@@ -15,12 +15,11 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "exhibits"
-    values:
-      layout: "exhibit"
+- scope:
+    path: ''
+    type: exhibits
+  values:
+    layout: exhibit
 author: Jordan Kelly
 email: jordan.kelly@arbor.edu
 description: The CUW Art Gallery was founded with the hope of educating, challenging,
