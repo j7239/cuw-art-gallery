@@ -1,0 +1,51 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: Sub Header
+  label: Sub header
+  type: text
+  hidden: false
+  default: ''
+- name: Featured Image
+  label: Featured image
+  type: file
+  hidden: false
+  default: ''
+- name: Opening Date
+  label: Opening date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: exhibit
+- name: banner
+  label: Banner
+  type: text
+  hidden: false
+  default: Exhibit
+pages:
+- _exhibits/the-positive-in-negative-space.markdown
